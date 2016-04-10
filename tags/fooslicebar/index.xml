@@ -12,10 +12,10 @@
     
     <item>
       <title>About AWS</title>
-      <link>http://niibruce.github.io/test/</link>
+      <link>http://niibruce.github.io/post/test/</link>
       <pubDate>Sat, 12 Dec 2015 21:47:31 -0800</pubDate>
       
-      <guid>http://niibruce.github.io/test/</guid>
+      <guid>http://niibruce.github.io/post/test/</guid>
       <description>&lt;p&gt;Congratulations, you&amp;rsquo;ve set up Hugo on AWS Lambda!&lt;/p&gt;
 </description>
     </item>
