@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on A Hegelian Paradise</title>
-    <link>http://localhost:1313/post/</link>
-    <description>Recent content in Posts on A Hegelian Paradise</description>
+    <title>Foo on A Hegelian Paradise</title>
+    <link>http://localhost:1313/tags/foo/</link>
+    <description>Recent content in Foo on A Hegelian Paradise</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Tue, 22 Mar 2016 14:49:58 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/foo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>hegelian paradise</title>
@@ -21,12 +21,12 @@
     </item>
     
     <item>
-      <title>About AWS</title>
-      <link>http://localhost:1313/post/test/</link>
-      <pubDate>Sat, 12 Dec 2015 21:47:31 -0800</pubDate>
+      <title>hegelian paradise</title>
+      <link>http://localhost:1313/post/hegelian-paradise/</link>
+      <pubDate>Tue, 22 Mar 2016 14:49:58 +0300</pubDate>
       
-      <guid>http://localhost:1313/post/test/</guid>
-      <description>&lt;p&gt;Congratulations, you&amp;rsquo;ve set up Hugo on AWS Lambda!&lt;/p&gt;
+      <guid>http://localhost:1313/post/hegelian-paradise/</guid>
+      <description>&lt;p&gt;This is a hugo deploy test.&lt;/p&gt;
 </description>
     </item>
     

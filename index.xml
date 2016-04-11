@@ -2,52 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Hegelian Paradise</title>
-    <link>http://niibruce.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on A Hegelian Paradise</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Tue, 22 Mar 2016 14:49:58 +0300</lastBuildDate>
-    <atom:link href="http://niibruce.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>hegelian paradise</title>
-      <link>http://niibruce.github.io/post/hegelian-paradise/</link>
+      <link>http://localhost:1313/post/hegelian-paradise/</link>
       <pubDate>Tue, 22 Mar 2016 14:49:58 +0300</pubDate>
       
-      <guid>http://niibruce.github.io/post/hegelian-paradise/</guid>
-      <description>&lt;p&gt;This is the story of a book I recently read.&lt;/p&gt;
-
-&lt;p&gt;Thanks&lt;/p&gt;
+      <guid>http://localhost:1313/post/hegelian-paradise/</guid>
+      <description>&lt;p&gt;This is a hugo deploy test.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>About AWS</title>
-      <link>http://niibruce.github.io/post/test/</link>
+      <link>http://localhost:1313/post/test/</link>
       <pubDate>Sat, 12 Dec 2015 21:47:31 -0800</pubDate>
       
-      <guid>http://niibruce.github.io/post/test/</guid>
+      <guid>http://localhost:1313/post/test/</guid>
       <description>&lt;p&gt;Congratulations, you&amp;rsquo;ve set up Hugo on AWS Lambda!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Hugo on Lambda test page 2</title>
-      <link>http://niibruce.github.io/test2/</link>
+      <link>http://localhost:1313/test2/</link>
       <pubDate>Sat, 12 Dec 2015 21:47:31 -0800</pubDate>
       
-      <guid>http://niibruce.github.io/test2/</guid>
+      <guid>http://localhost:1313/test2/</guid>
       <description>&lt;p&gt;Congratulations, you&amp;rsquo;ve set up Hugo on AWS Lambda!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>http://niibruce.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://niibruce.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;form class=&#34;pure-form pure-form-stacked&#34;&gt;
   &lt;fieldset&gt;
     &lt;div class=&#34;pure-g&#34;&gt;
@@ -92,10 +90,10 @@
     
     <item>
       <title>Contact</title>
-      <link>http://niibruce.github.io/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://niibruce.github.io/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description>&lt;form class=&#34;pure-form pure-form-stacked&#34;&gt;
   &lt;fieldset&gt;
     &lt;div class=&#34;pure-g&#34;&gt;
