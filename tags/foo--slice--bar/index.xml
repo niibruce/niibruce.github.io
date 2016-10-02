@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Foo  Slice  Bar on A Hegelian Paradise</title>
+    <link>http://localhost:1313/tags/foo--slice--bar/</link>
+    <description>Recent content in Foo  Slice  Bar on A Hegelian Paradise</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 12 Dec 2015 21:47:31 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/foo--slice--bar/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About AWS</title>
+      <link>http://localhost:1313/test/</link>
+      <pubDate>Sat, 12 Dec 2015 21:47:31 -0800</pubDate>
+      
+      <guid>http://localhost:1313/test/</guid>
+      <description>&lt;p&gt;Congratulations, you&amp;rsquo;ve set up Hugo on AWS Lambda!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

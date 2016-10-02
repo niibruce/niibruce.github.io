@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Responsive on A Hegelian Paradise</title>
+    <link>http://niibruce.github.io/tags/responsive/</link>
+    <description>Recent content in Responsive on A Hegelian Paradise</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 22 Mar 2016 14:49:58 +0300</lastBuildDate>
+    <atom:link href="http://niibruce.github.io/tags/responsive/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>hegelian paradise</title>
+      <link>http://niibruce.github.io/post/hegelian-paradise/</link>
+      <pubDate>Tue, 22 Mar 2016 14:49:58 +0300</pubDate>
+      
+      <guid>http://niibruce.github.io/post/hegelian-paradise/</guid>
+      <description>&lt;p&gt;This is a hugo deploy test.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
