@@ -7,8 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 12 Dec 2015 21:47:31 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 02 Oct 2016 10:23:53 +0000</lastBuildDate>
     <atom:link href="http://niibruce.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>good to great</title>
+      <link>http://niibruce.github.io/post/good-to-great/</link>
+      <pubDate>Sun, 02 Oct 2016 10:23:53 +0000</pubDate>
+      
+      <guid>http://niibruce.github.io/post/good-to-great/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to install wget</title>
+      <link>http://niibruce.github.io/post/how_to_install_wget/</link>
+      <pubDate>Sun, 02 Oct 2016 10:15:52 +0000</pubDate>
+      
+      <guid>http://niibruce.github.io/post/how_to_install_wget/</guid>
+      <description>&lt;p&gt;This is a quick tutorial on how to install wget with brew and.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>hegelian paradise</title>
+      <link>http://niibruce.github.io/post/hegelian-paradise/</link>
+      <pubDate>Tue, 22 Mar 2016 14:49:58 +0300</pubDate>
+      
+      <guid>http://niibruce.github.io/post/hegelian-paradise/</guid>
+      <description>&lt;p&gt;This is a hugo deploy test.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>About AWS</title>
@@ -17,6 +46,8 @@
       
       <guid>http://niibruce.github.io/post/test/</guid>
       <description>&lt;p&gt;Congratulations, you&amp;rsquo;ve set up Hugo on AWS Lambda!&lt;/p&gt;
+
+&lt;p&gt;And you have made an edit.&lt;/p&gt;
 </description>
     </item>
     
