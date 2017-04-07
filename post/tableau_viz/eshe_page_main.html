@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ESHE Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <!-- add after bootstrap.min.css -->
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css">
+    <!-- add after bootstrap.min.js -->
+    <link rel="stylesheet" href="/bootstrap-toc/bootstrap-toc.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
+      <link href="index.css" rel="stylesheet">
+      <link href="eshe_css.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/2f761d4/dist/bootstrap-toc.min.js"></script>
+
+  </head>
+
+  <body data-spy="scroll" data-target="#toc">
+    <container>
+<row>
+  <!-- Put the scroll spy here -->
+  <div class="col-sm-1" style="background-color:white">
+    <br> </br>
+    <h5 class="alt-h5"> Table of Contents</h5>
+    <br> </br>
+    <nav id="#toc" data-spy="affix" data-toggle="toc"></nav>
+  </div>
+
+  <div class="col-sm-11 row-fluid" style="background-color:white;">
+
+      <header class="article-header contribute bg-gray-light">
+        <div class="container-lg mx-auto px-3">
+
+          <h1 class="alt-h1 lh-condensed text-center mb-3">ESHE Dashboard</h1>
+          <p class="lead text-center text-gray">Find interactive dashboards containing metrics related to the ESHE Project, including metrics on CYPs, CPR, and FP Awareness. </p>
+          <p class="text-gray text-center"> Click on one of the links below to quickly jump to any of the thematic areas.</p>
+<!--
+          <blockquote class="blockquote-reverse">
+    <p>A successful programme requires that decision making at all levels be performed in a setting where such information is transparent and can be accessed from any place in real time</p>
+    <footer>From ESHE website</footer>
+  </blockquote>
+-->
+
+          <!-- Begin Card groups -->
+          <div class="card-deck">
+          <div class="well bg-white">
+            <table class="table-responsive d-table d-flex" align="center">
+              <tr>
+                <td style="padding-left:5px;">
+              <!-- Begin CYP card -->
+            <div class="card" style="width: 20rem;height: 250px; overflow:hidden;">
+
+              <img class="card-img-top" src="sdd.jpg" alt="Card image cap">
+              <div class="card-block text-center">
+              <h4 class="card-title">CYPs</h4>
+              <p class="card-text text-left" style="height:100px">The estimated protection provided by family planning (FP) services during a one-year period <b><sup>*</sup></b>.</p>
+              <div class="button-div">
+              <a data-scroll data-options='{ "easing": "easeInQuad" }' href="#cyp-section" class="btn btn-sm center-block text-center btn-bottom">Click to Jump.</a>
+            </div>
+              </div>
+            </div>
+            <!-- END CYP card -->
+          </td>
+
+          <td class="space" style="width: 5rem;">
+            <p class="space"></p>
+          </td>
+
+          <td>
+            <!-- Begin CPR card -->
+          <div class="card" style="width: 20rem;height: 250px; overflow:hidden;">
+            <img class="card-img-top img-fluid" src="mali-family-planning.jpg" alt="Card image cap" >
+            <div class="card-block text-center">
+            <h4 class="card-title">CPR</h4>
+            <p class="card-text text-left" style="height:100px">Contraceptive prevalence rate.</p>
+            <div class="button-div">
+            <a data-scroll data-options='{ "easing": "easeInQuad" }' href="#cpr-section" class="btn btn-sm center-block text-center btn-bottom">Click to Jump.</a>
+          </div>
+            </div>
+          </div>
+          <!-- END CPR card -->
+        </td>
+        </tr>
+          </table>
+          </div> <!-- End Card group -->
+        </card-deck>
+
+
+        </div>
+      </header>
+
+      <!-- Main content -->
+      <div>
+        <!-- Section one on CYPs class="text-black text-left" -->
+        <section class="well" id="cyp-section">
+        <article>
+          <h2 class="alt-h1 lh-condensed text-center mb-3" id="cyp-trends"> CYP Trends</h2>
+
+
+          <p> <span class="firstcharacter">C</span> YPS are measured to provide an estimation of the contraceptive coverage of a population. CYPS are interpreted more
+            as an indication of the intensity of the ESHE program activity, as opposed to a measure of the use of contraceptives.
+          </p>
+          <br> <br> <br>
+<h3 class="alt-h3" id="anoth-sub-heading" align="center"> What is the overall monthly evolution of CYPs? </h3>
+<br>
+
+          <p> Since inception of the ESHE program in 2014, a total of <strong>883,756</strong> CYPs have been achieved. This was achieved between January 2014 and June 2016. </p>
+          <p> Total CYPs obtained in 2014 were considerably less as the program was still in its early stages and didn't have quite as much Count reach as it did in 2015 and 2016. </p>
+          <!-- Cumulative CYPs since inception -->
+          <div class='tableauPlaceholder' id='viz1491378463214' style='position: relative' align="center">
+            <noscript>
+        <a href='#'><img alt='Cumulative CYPs ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indicator1_CYPS&#47;CumulativeCYPs&#47;1_rss.png' style='border: none' /></a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='site_root' value='' />
+        <param name='name' value='Indicator1_CYPS&#47;CumulativeCYPs' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indicator1_CYPS&#47;CumulativeCYPs&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+    </object>
+  </div>
+  <script type='text/javascript'>
+      var divElement = document.getElementById('viz1491378463214');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width = '1004px';
+      vizElement.style.height = '869px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+    <!-- End umulative CYPs since inception -->
+
+          <p>Over the course of the program, CYPs have increased an average of X% quarter on quarter, with the largest quarterly growth observed in Q2-2015.</p>
+
+          <div class='tableauPlaceholder' id='viz1491381362798' style='position: relative' align="center">
+            <noscript>
+        <a href='#'><img alt='Quarterly CYP Growth ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indicator1_CYPS&#47;QuarterlyCYPGrowth&#47;1_rss.png' style='border: none' /></a>
+      </noscript>
+    <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='site_root' value='' />
+        <param name='name' value='Indicator1_CYPS&#47;QuarterlyCYPGrowth' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='no' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Indicator1_CYPS&#47;QuarterlyCYPGrowth&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+    </object>
+</div>
+<script type='text/javascript'>
+    var divElement = document.getElementById('viz1491381362798');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width = '1004px';
+    vizElement.style.height = '869px';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+  <br>
+  <br>
+
+
+    <h3 class="alt-h3" id="anoth-sub-heading" align="center">What is the distribution of Users and CYPs?</h3>
+    <p> Say Something abouth the distribution of the counties and that?</p>
+
+    <div class='tableauPlaceholder' id='viz1491490043796' style='position: relative' align="center">
+  <noscript>
+  <a href='#'><img alt='FP Users and CYPs Per County ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CY&#47;CYPsandUsersPerCounty&#47;StoreCYPsandUsersPerCounty&#47;1_rss.png' style='border: none' /></a>
+  </noscript>
+  <object class='tableauViz' style='display:none;'>
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+  <param name='site_root' value='' />
+  <param name='name' value='CYPsandUsersPerCounty&#47;StoreCYPsandUsersPerCounty' />
+  <param name='tabs' value='no' />
+  <param name='toolbar' value='yes' />
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CY&#47;CYPsandUsersPerCounty&#47;StoreCYPsandUsersPerCounty&#47;1.png' />
+  <param name='animate_transition' value='yes' />
+  <param name='display_static_image' value='yes' />
+  <param name='display_spinner' value='yes' />
+  <param name='display_overlay' value='yes' />
+  <param name='display_count' value='yes' />
+  </object>
+  </div>
+  <script type='text/javascript'>
+  var divElement = document.getElementById('viz1491490043796');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  vizElement.style.width = '1004px';
+  vizElement.style.height = '869px';
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+
+<br> <br>
+
+
+<div class='tableauPlaceholder' id='viz1491557212777' style='position: relative'>
+    <noscript>
+        <a href='#'><img alt='Age Distribution of CYPs ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CY&#47;CYPsandUsersPerQuarterDisaggregatedbyAgeBracket&#47;AgeDistributionofCYPs&#47;1_rss.png' style='border: none' /></a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='site_root' value='' />
+        <param name='name' value='CYPsandUsersPerQuarterDisaggregatedbyAgeBracket&#47;AgeDistributionofCYPs' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CY&#47;CYPsandUsersPerQuarterDisaggregatedbyAgeBracket&#47;AgeDistributionofCYPs&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+    </object>
+</div>
+<script type='text/javascript'>
+    var divElement = document.getElementById('viz1491557212777');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width = '1004px';
+    vizElement.style.height = '869px';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+<br> </br>
+
+
+<h3 class="alt-h3" id="anoth-sub-heading" align="center">OVerall distribution of methods in terms in terms of CYPs.</h3>
+<p> Say Something abouth the overall distribution of methods in terms of clients and CYPs. </p>
+<br> <br>
+
+
+<h3 class="alt-h3" id="anoth-sub-heading" align="center">Cluster of Counties according to Total Clients and Total CYPs</h3>
+<p>From the clustered scatter plot below, we can see how different counties differ with respect to clients reached there and CYPs consumed.</p>
+<p> Cluster 1(Blue) counties have a predictably linear relationship between clients reached and CYPs. CLusters 2 and 3 on the other hand fall on the extreme ends of the spectrum.</p>
+<p>For cluster 1 counties it can be observed that this group would be the most difficult counties to convert clients reached to CYPs. Trans-Nzoia(Group 2) and Kajiado(Group 1) have the same number of CYPs but Trans-Nzoia required 2.9 times as many clients to obtain te same CYPs.
+ This means that for the same number of clients,  </p>
+
+<div class='tableauPlaceholder' id='viz1491384223987' style='position: relative' align="center">
+    <noscript>
+        <a href='#'><img alt='Cluster: Clients Dashboards ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cl&#47;ClusterofCountiesAccordingtoTotalClientsandTotalCYPs&#47;ClusterClientsDashboards&#47;1_rss.png' style='border: none' /></a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='site_root' value='' />
+        <param name='name' value='ClusterofCountiesAccordingtoTotalClientsandTotalCYPs&#47;ClusterClientsDashboards' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cl&#47;ClusterofCountiesAccordingtoTotalClientsandTotalCYPs&#47;ClusterClientsDashboards&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+    </object>
+</div>
+<script type='text/javascript'>
+    var divElement = document.getElementById('viz1491384223987');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width = '1004px';
+    vizElement.style.height = '869px';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+
+
+    <br> <br> <br>
+          <h3 class="alt-h3" id="anoth-sub-heading" align="center"> How many clients and CYPs were achieved in each county? </h3>
+
+          <p> The following visualisation shows how many clients we reached and CYPs achieved in each county.</p>
+
+
+
+          <br>
+          <br>
+          <h3 class="alt-h3" id="anoth-sub-heading" align="center"> What is the distribution of methods?</h3>
+
+
+
+
+
+        </article>
+      </section class="wow fadeInUp"> <!-- Section one on CYPs -->
+
+
+      <!-- Section one on CPR -->
+      <section class="well" id="cpr-section">
+      <article>
+        <h2 class="alt-h1 lh-condensed text-center mb-3" id="cpr-trends"> CPR Trends</h2>
+        <p class="text-gray text-left"> <span class="firstcharacter">O</span>verall CYPs have been shown to increase in this direction.</p>
+
+        <h3 id="age-distribution" class="alt-h3">Age distribution of clients?</h3>
+      </article>
+    </section> <!-- Section one on CPRs -->
+
+
+    <!-- Section one FAQs -->
+    <section class="well">
+    <article>
+      <h2 class="alt-h1 lh-condensed text-center mb-3" id="cpr-trends"> FAQs</h2>
+      <p class="text-gray text-left"> Please find below the answers to some of the frequently asked questions.</p>
+
+      <ul>
+
+        <li> <h3 class="alt-h3">What are CYPs?</h3>
+          <br>
+          <p> CYP stand for couple year protection. It is the estimated protection provided by contraceptive methods during a one-year period, based upon the volume of all contraceptives sold or distributed free of charge to clients during that period.</p>
+        </li>
+
+        <br> <br>
+        <li> <h3 class="alt-h3">How are CYPs calculated?</h3>
+          <br>
+          <p> The CYP is calculated by multiplying the quantity of each method distributed to clients by a conversion factor, to yield an estimate of the duration of contraceptive protection provided per unit of that method.</p>
+        </li>
+
+    </ul>
+
+    </article>
+  </section> <!-- Section one on CPRs -->
+
+      </div><!-- end of main content -->
+</div>
+</row>
+</container>
+<script type="text/javascript" src="dist/js/smoothscroll.js"></script>
+		<script>
+			smoothScroll.init();
+		</script>
+  </body>
+</html>
